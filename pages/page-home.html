@@ -1,0 +1,73 @@
+<div class="about-me">
+  <div class="image-cropper">
+    <img class="my-photo" ng-src="/images/my-photo.JPG" />
+  </div>
+
+  <div class="name-contact">
+    <h1 class="name">EVANGELINE TAY</h1>
+
+    <div ng-repeat="icon in ctrl.icons">
+      <img class="social-media-img" ng-src="{{ icon.image }}" ng-click="ctrl.toggle(icon.type)" ng-mouseover="ctrl.hover(icon.type)" ng-mouseleave="ctrl.clearHover()" ng-class="{'inactive': {{ icon.inactive }}}"/>
+      <p ng-hide="{{ icon.hide }}">
+        {{ icon.display }}
+      </p>
+    </div>
+
+    <button ng-click="log()">log</button>
+<!--
+    <img class="social-media-img" ng-src="/images/email.png" ng-click="toggle('email')" ng-mouseover="hover('email')" ng-mouseleave="clearHover()" ng-class="{'inactive': emailInactive}"/>
+    <img class="social-media-img" ng-src="/images/instagram.png" ng-click="toggle('ig')" ng-mouseover="hover('ig')" ng-mouseleave="clearHover()" ng-class="{'inactive': igInactive}"/>
+    <img class="social-media-img" ng-src="/images/github.png" ng-click="toggle('git')" ng-mouseover="hover('git')" ng-mouseleave="clearHover()" ng-class="{'inactive': gitInactive}"/>
+
+    <div ng-hide="hideEmail">
+      <p>
+        etay@alumni.ubc.ca
+      </p>
+    </div>
+
+    <div ng-hide="hideIg">
+      <p>
+        @evangelinetay
+      </p>
+    </div>
+
+    <div ng-hide="hideGit">
+      <p>
+        github.ca/etay129
+      </p>
+    </div> -->
+
+    <hr />
+
+  </div>
+
+
+
+
+</div>
+
+<div class="intro">
+
+  <div class="descrip">
+    <img class="welcome" ng-src="/images/welcome.png" />
+    <p>
+      I'm Evangeline, a <b>Computer Science and Statistics</b> student from Vancouver, BC. I love being
+      able to bring my ideas to reality through programming. The feeling of seeing your project
+      materialize is uncomparable. So far I've worked mostly with <b>Web Development</b> but I am extremely
+      interested in expanding my skills to encompass Mobile and Games and more.
+    </p>
+    <p>
+      Aside from my technical interests, I'm a fan of all things fashion, food, and photography. My
+      weekends are often spent at different coffeeshops as I explore the streets of Vancouver.
+      Working outside of my room helps to bring about inspiration, and of course, the coffee works
+      wonders at keeping me alert.
+    </p>
+    <p>
+      To find out more about my background and experiences, check out my CV by clicking the link at the top
+      of the page!
+    </p>
+
+  </div>
+
+
+</div>

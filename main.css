@@ -1,0 +1,116 @@
+html {
+
+    background: #e0e0e0;
+    height: 100%;
+}
+
+body {
+  background: #fff;
+
+  color: #545454;
+  font-family: "Arial Narrow", Helvetica, Arial, san-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 1.5;
+
+  margin: 0 auto;
+  max-width: 70%;
+  min-width: 800px;
+  padding: 2em 2em 4em;
+
+  min-height: 100%;
+}
+
+h1 {
+  font-family: "Arial Narrow", Helvetica, Arial, san-serif;
+  font-size: 28px;
+  margin-bottom: 0px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 25px;
+}
+
+a {
+  font-family: "Arial Narrow", Helvetica, Arial, san-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #989797;
+  letter-spacing: 3px;
+
+  float: right;
+  margin-right: 8%;
+
+  text-decoration: none;
+}
+
+hr {
+  color: #e0e0e0;
+}
+
+.about-me {
+  width: 20vw;
+  height: 40vw;
+  text-align: center;
+  margin-left: 2%;
+  margin-top: 8%;
+  float: left;
+
+}
+
+.image-cropper {
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 10%;
+    min-width: 192px;
+    min-height: 192px;
+}
+
+.my-photo {
+    width:15vw;
+    height:18vw;
+    position:relative;
+    min-width: 192px;
+    min-height: 240px;
+}
+
+.name-contact {
+  text-align: center;
+  min-width: 200px;
+  position: absolute;
+  margin-left: 1.6%;
+  z-index: 1;
+}
+
+.social-media-img {
+  position: relative;
+  padding: 2px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.inactive {
+  -webkit-filter: opacity(40%); filter: opacity(40%);
+}
+
+.intro {
+  position: relative;
+}
+
+.welcome {
+  width: 250px;
+  margin-top: 12%;
+  margin-bottom: -1%;
+}
+
+.descrip {
+  width: 63%;
+  min-width: 525px;
+  margin-left: 33%;
+}

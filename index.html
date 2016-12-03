@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="eng" ng-app="aboutMe">
+
+  <head>
+    <title>EVANGELINE TAY</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-animate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+  <body>
+    <ul>
+      <li><a href="resume.pdf" target="_blank">CV</a></li>
+    </ul>
+    <br />
+    <hr />
+
+    <div ng-view></div>
+
+    <script src="/app/module.js"></script>
+    <script src="app/controllers/mainController.js"></script>
+  </body>
+</html>
